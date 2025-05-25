@@ -27,7 +27,7 @@ class MobileNetwork:
                         int(parts[4]), int(parts[5]), int(parts[6]), 
                         float(parts[7]), parts[8]
                     ))
-        self.sort_by_name()
+        #self.sort_by_name()
     
     def sort_by_name(self):
         self.subscribers.sort(key=lambda x: x.last_name)
